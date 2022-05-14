@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/web")
+
 public class HelloRestController {
     @GetMapping("/message")
     public String message() {
